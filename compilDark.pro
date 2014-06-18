@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui opengl
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -16,5 +16,3 @@ SOURCES += main.cpp\
         compiledark.cpp
 
 HEADERS  += compiledark.h
-
-FORMS    += compiledark.ui
